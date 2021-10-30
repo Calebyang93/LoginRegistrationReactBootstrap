@@ -1,8 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import {BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import Login from '././Components/login';
 import SignUp from '././Components/signup';
+import MediaComponent from './Components/mediacomponent';
+import UrlComponent from './Components/urlcomponent';
 
 function App() {
   return (<Router>
@@ -26,7 +29,7 @@ function App() {
     <div className="App">
     <nav className="navbar navbar-expand-lg navbar-light fixed-top">
       <div className="container">
-        <Link className="navbar-brand" to={"/sign-in"}>positronX.io</Link>
+        <Link className="navbar-brand" to={"/sign-in"}></Link>
         <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
@@ -48,6 +51,8 @@ function App() {
         <Route path="/sign-up" component={SignUp} />
       </Switch>
     </div>
+    <MediaComponent />
+    <UrlComponent />
   </div>
   </Router>);
 }
