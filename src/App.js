@@ -6,6 +6,7 @@ import Login from '././Components/login';
 import SignUp from '././Components/signup';
 import MediaComponent from './Components/mediacomponent';
 import UrlComponent from './Components/urlcomponent';
+import ImageResize from './Components/imageresize';
 
 function App() {
   return (<Router>
@@ -53,6 +54,7 @@ function App() {
     </div>
     <MediaComponent />
     <UrlComponent />
+    <ImageResize />
   </div>
   </Router>);
 }
