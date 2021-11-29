@@ -4,10 +4,10 @@ function MovieState() {
     const  [moviesList2, setMovies] = useState([
         {id: 1, name: 'Rush Hour 3', date: "2003", genre: "Action"},
         {id: 2, name: 'Harry Potter and the Chamber of Secret', date: "2004", genre: "Science Fiction"},
-        {id: 1, name: 'Transformers 1', date: "2008", genre: "Action"},
-        {id: 1, name: 'Slumdog Millionaire', date: "2009", genre: "Thriller"},
-        {id: 1, name: 'Superman returns', date: "2002", genre: "Action"},
-        {id: 1, name: 'Harold and Kumar', date: "1999", genre: "Comedy"},
+        {id: 3, name: 'Transformers 1', date: "2008", genre: "Action"},
+        {id: 4, name: 'Slumdog Millionaire', date: "2009", genre: "Thriller"},
+        {id: 5, name: 'Superman returns', date: "2002", genre: "Action"},
+        {id: 6, name: 'Harold and Kumar', date: "1999", genre: "Comedy"},
     ]);
     
     return(
